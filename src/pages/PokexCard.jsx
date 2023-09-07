@@ -22,8 +22,9 @@ const PokexCard = () => {
   const {itemsCurrentPage, lastPage, pagesInCurrentBlock, bgColor}= paginateData(pokemonsName, currentPage)
 
   return (
-    <main className=" h-screen bg-gradient-to-r from-gray-100 to-gray-300">
+    <main className=" min-h-screen  bg-gradient-to-r from-gray-100 to-gray-300">
       <section>
+        <div className=" h-[20px]"></div>
         <p className=" flex flex-col flex-wrap items-center text-center font-medium ml-[2.5px] mr-[2.5px]">
           <span className=" text-red-600 font-extrabold">Welcome {name}</span>{" "}
           Here you can find your favorite pokemon.

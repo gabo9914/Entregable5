@@ -2,7 +2,7 @@ const borderPokemonType = {
   fire: "border-[3px] border-orange-500",
   grass: "border-[3px] border-green-700",
   normal: "border-[3px] border-pink-700",
-  fighting: "border-from-amber-700 via-amber-400",
+  fighting: "border-[3px] border-amber-700",
   flying: "border-[3px] border-blue-500",
   poison: "border-[3px] border-purple-700",
   ground: "border-[3px] border-amber-500",

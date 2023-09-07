@@ -4,7 +4,6 @@ const Pagination = ({
   lastPage,
   pagesInCurrentBlock,
   setCurrentPage,
-  bgColor,
   currentPage,
 }) => {
   const handleNextPage = () => {
@@ -29,7 +28,7 @@ const Pagination = ({
   return (
     <ul className=" h-20 flex justify-center items-center gap-4 bg-gradient-to-r from-gray-100 to-gray-300">
       {currentPage >= 2 && (
-        <li onClick={handleFirstPage} className="cursor-pointer">
+         <li onClick={handleFirstPage} className="cursor-pointer">
           <AiOutlineFastBackward />
         </li>
       )}

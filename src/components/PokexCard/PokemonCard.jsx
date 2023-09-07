@@ -3,7 +3,6 @@ import { getPokemonByUrl, pokemonType } from "../../services/pokemons";
 import StatsPokemon from "./StatsPokemon";
 import { bgPokemonType, borderPokemonType } from "../../shared/pokemon";
 import { Link } from "react-router-dom";
-import Pagination from "./Pagination";
 
 const PokemonCard = ({ pokemonUrl }) => {
   const [pokemonInfo, setPokemonInfo] = useState(null);
